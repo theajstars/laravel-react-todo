@@ -13,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>React and Laravel ToDo app</title>
-    <script defer src="{{asset('js/app.js')}}"></script>
+    <script defer src="{{asset('js/app.js', true)}}"></script>
 </head>
 <body>
     <div id="app"></div>
